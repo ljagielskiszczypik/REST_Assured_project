@@ -16,6 +16,5 @@ public class GetPostTest extends BaseTest{
                 .spec(respSpec)
                 .assertThat().body("title",equalTo("Clean Code"))
                 .assertThat().body("author",equalTo("Robert C. Martin"));
-
     }
 }

@@ -8,7 +8,7 @@ public class GetPostTest extends BaseTest{
     @Test
     public void getPost(){
         given()
-                .pathParam("postId",1)
+                .pathParam("postId",3)
                 .spec(reqSpec).
         when()
                 .get("{postId}").

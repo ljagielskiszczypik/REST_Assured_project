@@ -4,18 +4,16 @@ import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
-import io.restassured.internal.RequestSpecificationImpl;
-import io.restassured.internal.ResponseSpecificationImpl;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 
 public class BaseTest {
 
-    protected RequestSpecification reqSpec;
-    protected ResponseSpecification respSpec;
+    protected static RequestSpecification reqSpec;
+    protected static ResponseSpecification respSpec;
 
-    @BeforeClass
+    @BeforeSuite
     public void setUp(){
         reqSpec = new RequestSpecBuilder()
                 .setBaseUri("http://localhost:3000")

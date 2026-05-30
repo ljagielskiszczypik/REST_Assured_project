@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "author": "Robert C. Martin"
+    },
+    {
+      "id": 2,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt"
+    },
+    {
+      "id": 3,
+      "title": "Design Patterns",
+      "author": "Erich Gamma"
+    },
+    {
+      "id": 4,
+      "title": "Refactoring",
+      "author": "Martin Fowler"
+    },
+    {
+      "id": 5,
+      "title": "Effective Java",
+      "author": "Joshua Bloch"
+    },
+    {
+      "id": 6,
+      "title": "Code Complete",
+      "author": "Steve McConnell"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "One of the best programming books ever written.",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "Very useful for improving coding standards.",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "A must-read for every software developer.",
+      "postId": 2
+    },
+    {
+      "id": 4,
+      "body": "Great explanations and practical examples.",
+      "postId": 3
+    },
+    {
+      "id": 5,
+      "body": "Helped me understand object-oriented design.",
+      "postId": 3
+    },
+    {
+      "id": 6,
+      "body": "Excellent book about improving legacy code.",
+      "postId": 4
+    },
+    {
+      "id": 7,
+      "body": "Very valuable for Java developers.",
+      "postId": 5
+    },
+    {
+      "id": 8,
+      "body": "Packed with software engineering best practices.",
+      "postId": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
